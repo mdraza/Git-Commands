@@ -1,0 +1,118 @@
+Git Github Commands:-
+
+========:Git Command Line Commands:=========
+	add, bisect, branch, checkout, clone, commit, diff, fetch, grep, init, log, 
+	merge, mv, pull, push, rebase, reset, rm, show, status, tag
+
+
+1>Git Version Check:-
+	git --version
+
+
+2>To Initialize:-
+	git init
+
+
+3>Configuring Remote Git Repository:-
+	git remote add origin https://github.com/mdraza/test.git
+
+
+4>How to check Already Remote Repository Add or Not:-
+	git remote -v
+
+
+5>To Remove Remote Repository:-
+	git remote remove origin
+
+
+2>Git Commit:-
+	git commit -m "commit message"
+	git commit --message="commit message"
+
+
+3>Creating an Initial Repository:-
+	git init
+
+
+4>Adding file to your Repository:-
+	git add index.html
+
+
+5>Git Status:-
+	git status
+
+
+6>To Add File into the Repository:-
+	git add File Name
+
+
+7>To Add All File:-
+	git add --all AND git add .
+
+
+8>To Remove file from Stage or Track:-
+	git rm --cached File Name
+
+		
+
+9>Configuring the Global Commit Author:-
+	git config user.name "mdraza"
+	git config user.email "raza@gmail.com"
+
+10>To Commit Staged File:-
+	git commit -m "Message"
+
+11>To Show List of Commit with Details:-
+	git log
+
+12>To Push into the Github:-
+	git remote -v
+	git push raza(name when you add remote repository) master
+	Then Type Username & Password of Github
+
+
+13>How to generate SSH Key for Github:-
+	ssh-keygen -t rsa -C "emailid@gmail.com"
+
+14>To Copy the Generated SSH File:-
+	clip < id_rsa.pub(file name)
+
+
+15>To Go Backword Directory:-
+	cd ..
+
+16>To Show Your Current Directory:-
+	pwd
+
+
+17>If Your folder name is with space like GIT & GITHUB than include it into double quotes just like - "GIT & GITHUB"
+
+
+18>To Show List of Branches:-
+	git branch
+
+19>To Create New Branch:-
+	git branch branch name
+
+
+19>To Switch Branch:-
+	git checkout new branch name
+
+20>To Create New Branch and Switch into it:-
+	git checkout -b Branch Name
+
+
+21>To Delete Branch:-
+	git branch -d Branch Name
+
+
+22>To Create New File into the Branch:-
+	echo > filename with extension
+
+
+23>To Merge Branch:-
+	git merge Branch Name - that you have to merge
+
+
+24>How to Download/ Clone Folder or file from Github:-
+	git clone and paste ssh-url
